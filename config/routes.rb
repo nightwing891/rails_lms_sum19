@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'enrollments/index'
-  get 'enrollments/new'
   root 'courses#index'
 
   resources :users
